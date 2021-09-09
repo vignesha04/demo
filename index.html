@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<!-- This is how HTML comments look like -->
+<html>
+<!-- the title will appear on the page-->
+<head>
+<title>BATTLE GROUNND MOBILE INDIA</title>
+</head>
+<body>
+<!-- as it is a survey form, we will need to submit the details, hence we use form -->
+<!-- We can give absolute url, or relative url like /nextpage.jsp, and specify POST or GET method -->
+<form action="http://google.co.in">
+<!-- If we remove this, every thing will move to the left of the page-->
+<div align="center">
+<!--Adds a heading to the form-->
+<h1 style="background-color:purple;"> YOUR FAV GUN </h1>
+<img style="float:left;" src="E:\pubg.jpg"  width="200" height="150">
+Enter your name:
+<!-- Input type text for small texts, specify size -->
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+<!--Adds spaces - remove and see what happens -->
+</br></br>
+Enter your USER ID:
+<input type="text" name="user ID" size=35 maxlength=35 value=""> </br> </br>
+Tell us a little about your game play:
+<!-- For writing lot of text like descriptions with text wrapping,
+if you dont want text wrapping, you can add wrap = "off" (horizontal scrollbar -->
+<textarea name="Comments" cols=30 rows=4></textarea> </br> </br>
+Do you play at college or office?
+<!-- Radio buttons help you choose one out of the many values -->
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No
+</p>
+How do you like to read about your favorite maps?
+<p>
+<!--Checkbox lets you select multiple options -->
+<input type="checkbox" name="map">Erangle
+<input type="checkbox" name="map">Shanok
+<input type="checkbox" name="map">Vikendi
+<input type="checkbox" name="map">Miramar
+<input type="checkbox" name="map">TDM
+</p>
+Which gun do you like?
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="gunpref" ><option>
+<option value=1 selected = "true">AWM
+<option value=2 >M24
+<option value=3 >KAR98
+<option value=4 >M416
+<option value=5 >AKM
+<option value=6 >GROZA
+<option value=7 >M249
+<option value=8 >MG3
+<option value=9 >MK14
+</select>
+</br></br>
+<!--submits the information entered in the form by the user -->
+<input type=submit value="Submit form">
+</div>
+</form>
+</body>
+</html>
